@@ -48,7 +48,7 @@ class CipherViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController = segue.destination as! ResultViewController
-        resultViewController.resultText = "Hi Mahin"
+        resultViewController.resultText = cipherBrain?.runningCipher()
         resultViewController.side = cipherBrain?.side ?? "Right"
         resultViewController.numberOfShifts = cipherBrain?.numberOfShifts ?? 1
     }
