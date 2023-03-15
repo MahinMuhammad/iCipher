@@ -39,6 +39,9 @@ struct CipherBrain{
         if(side == "Left"){
             tempNumberOfShifts = (-1) * (numberOfShifts ?? 1)
         }
+        else{
+            tempNumberOfShifts = numberOfShifts ?? 1
+        }
         if let safeInputText = inputText{
             for i in safeInputText{
                 if(i>="a" && i<="z"){
