@@ -133,7 +133,10 @@
                                         <rect key="frame" x="0.0" y="56" width="414" height="49.5"/>
                                         <color key="textColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                        <connections>
+                                            <action selector="donePressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="Vt4-QW-viP"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
                                 <constraints>

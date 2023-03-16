@@ -18,6 +18,11 @@ class CipherViewController: UIViewController {
     
     var side:String?
     
+    override func viewDidLoad() {
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
+    }
+    
     @IBAction func sideChanged(_ sender: UIButton) {
         leftButton.isSelected = false
         rightButton.isSelected = false
@@ -51,6 +56,9 @@ class CipherViewController: UIViewController {
         resultViewController.resultText = cipherBrain?.runningCipher()
         resultViewController.side = cipherBrain?.side ?? "Right"
         resultViewController.numberOfShifts = cipherBrain?.numberOfShifts ?? 1
+    }
+    @IBAction func donePressed(_ sender: UITextField) {
+        sender.resignFirstResponder()
     }
 }
 
