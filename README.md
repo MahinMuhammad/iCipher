@@ -1,4 +1,4 @@
-<h1>iCipher <td align="center"><img src="Documentation/iCipher.png" height="50" width="50"></h4></td></h1>
+<h1>iCipher <td align="center"><img src="Documentation/iCipher.png" height="80" width="80"></h4></td></h1>
 
 <h3>Introduction</h3>
   <p>This is an Cipher application. This app runs on IOS. On this app one can insert a sentence or word to encode or decode.</p>
