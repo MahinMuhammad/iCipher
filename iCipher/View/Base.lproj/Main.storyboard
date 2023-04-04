@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -110,7 +112,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.78823529411764703" green="0.93333333333333335" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.78823529410000004" green="0.93333333330000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Pcr-Et-9uw" secondAttribute="trailing" constant="20" id="LXl-Vq-IkP"/>
                                     <constraint firstItem="Pcr-Et-9uw" firstAttribute="leading" secondItem="AJe-TZ-Ktz" secondAttribute="leading" constant="20" id="iy9-wW-8dg"/>
@@ -169,7 +171,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="BackgroundColour"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="TVe-fm-9Di" secondAttribute="bottom" id="4El-O1-BUa"/>
                             <constraint firstItem="AJe-TZ-Ktz" firstAttribute="top" secondItem="geg-sP-kWZ" secondAttribute="bottom" constant="40" id="A3l-OR-MfI"/>
@@ -199,7 +201,7 @@
             <objects>
                 <viewController id="6vf-Ko-T80" customClass="ResultViewController" customModule="iCipher" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cNn-Qx-VwO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QJP-s1-Qgj">
@@ -246,7 +248,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieg-zv-7f0">
-                                <rect key="frame" x="107" y="784" width="200" height="54"/>
+                                <rect key="frame" x="107" y="832" width="200" height="54"/>
                                 <color key="backgroundColor" red="0.38431372549999998" green="0.57647058819999997" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="IxU-Rq-DPg"/>
@@ -268,7 +270,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lci-MD-HgU"/>
-                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="BackgroundColour"/>
                         <constraints>
                             <constraint firstItem="Ieg-zv-7f0" firstAttribute="centerX" secondItem="cNn-Qx-VwO" secondAttribute="centerX" id="7Fv-XQ-skp"/>
                             <constraint firstItem="QJP-s1-Qgj" firstAttribute="trailing" secondItem="lci-MD-HgU" secondAttribute="trailing" id="Esf-ZM-y4S"/>
@@ -290,4 +292,9 @@
             <point key="canvasLocation" x="886.95652173913049" y="-27.455357142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="BackgroundColour">
+            <color red="0.96862745100000003" green="0.96862745100000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
 </document>
