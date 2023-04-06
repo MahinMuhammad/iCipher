@@ -6,6 +6,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -41,10 +42,10 @@
                                                             <constraint firstAttribute="height" constant="54" id="6jX-My-MxU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                        <color key="tintColor" red="0.38431372549999998" green="0.57647058819999997" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" name="UIColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Left">
-                                                            <color key="titleColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" name="UIColor"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="sideChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zF6-71-NPC"/>
@@ -56,10 +57,10 @@
                                                             <constraint firstAttribute="height" constant="54" id="X47-hP-M1P"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                        <color key="tintColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="tintColor" name="UIColor"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Right">
-                                                            <color key="titleColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            <color key="titleColor" name="UIColor"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="sideChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0rl-t5-8gQ"/>
@@ -86,7 +87,7 @@
                                                             <constraint firstAttribute="height" constant="29" id="eP5-DL-NIw"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                        <color key="textColor" red="0.38431372549999998" green="0.57647058819999997" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="textColor" name="UIColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-RJ-JQv">
@@ -112,7 +113,7 @@
                                         </constraints>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.78823529410000004" green="0.93333333330000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="DarkColorSet"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Pcr-Et-9uw" secondAttribute="trailing" constant="20" id="LXl-Vq-IkP"/>
                                     <constraint firstItem="Pcr-Et-9uw" firstAttribute="leading" secondItem="AJe-TZ-Ktz" secondAttribute="leading" constant="20" id="iy9-wW-8dg"/>
@@ -133,7 +134,7 @@
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="i.e. sample text" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FPR-cB-smU">
                                         <rect key="frame" x="0.0" y="56" width="414" height="49.5"/>
-                                        <color key="textColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" name="UIColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                         <connections>
@@ -150,7 +151,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TVe-fm-9Di">
                                 <rect key="frame" x="107" y="808" width="200" height="54"/>
-                                <color key="backgroundColor" red="0.38431372549999998" green="0.57647058819999997" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="UIColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="L3M-UT-DUd"/>
                                     <constraint firstAttribute="height" constant="54" id="dDm-nk-h9O"/>
@@ -158,7 +159,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Run Cipher">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -222,11 +223,11 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="P3q-rE-bKr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
-                                        <color key="textColor" red="0.38431372549019605" green="0.57647058823529407" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" name="UIColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.78823529410000004" green="0.93333333330000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="DarkColorSet"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="pXc-OU-dbx" secondAttribute="trailing" constant="10" id="S1M-Uh-kPa"/>
                                     <constraint firstAttribute="height" constant="550" id="SlU-10-rMA"/>
@@ -249,7 +250,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieg-zv-7f0">
                                 <rect key="frame" x="107" y="832" width="200" height="54"/>
-                                <color key="backgroundColor" red="0.38431372549999998" green="0.57647058819999997" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" name="UIColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="IxU-Rq-DPg"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="as9-vr-Y0a"/>
@@ -257,7 +258,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Run Again">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -294,7 +295,16 @@
     </scenes>
     <resources>
         <namedColor name="BackgroundColour">
-            <color red="0.96862745100000003" green="0.96862745100000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <namedColor name="DarkColorSet">
+            <color red="0.94136890880000001" green="0.92050103699999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="UIColor">
+            <color red="0.65768505239999997" green="0.50715362590000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
