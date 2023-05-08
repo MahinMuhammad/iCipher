@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000687B62A09339800381FB6 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000687B52A09339800381FB6 /* K.swift */; };
 		0019083229C1AE9E00D1888F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019083129C1AE9E00D1888F /* ResultViewController.swift */; };
 		0019083629C1B27B00D1888F /* CipherBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019083529C1B27B00D1888F /* CipherBrain.swift */; };
 		009BC84B29674556001BBAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009BC84A29674556001BBAC3 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000687B52A09339800381FB6 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 		0019083129C1AE9E00D1888F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		0019083529C1B27B00D1888F /* CipherBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherBrain.swift; sourceTree = "<group>"; };
 		009BC84729674556001BBAC3 /* iCipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +67,7 @@
 				009BC86029674845001BBAC3 /* Controllers */,
 				009BC84A29674556001BBAC3 /* AppDelegate.swift */,
 				009BC84C29674556001BBAC3 /* SceneDelegate.swift */,
+				000687B52A09339800381FB6 /* K.swift */,
 				009BC85329674557001BBAC3 /* Assets.xcassets */,
 				009BC85829674557001BBAC3 /* Info.plist */,
 			);
@@ -171,6 +174,7 @@
 				009BC84F29674556001BBAC3 /* CipherViewController.swift in Sources */,
 				009BC84B29674556001BBAC3 /* AppDelegate.swift in Sources */,
 				0019083629C1B27B00D1888F /* CipherBrain.swift in Sources */,
+				000687B62A09339800381FB6 /* K.swift in Sources */,
 				009BC84D29674556001BBAC3 /* SceneDelegate.swift in Sources */,
 				0019083229C1AE9E00D1888F /* ResultViewController.swift in Sources */,
 			);

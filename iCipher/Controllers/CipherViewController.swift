@@ -28,11 +28,11 @@ class CipherViewController: UIViewController {
         rightButton.isSelected = false
         
         switch(sender.currentTitle!){
-        case"Left":
+        case K.leftButtonTitle:
             leftButton.isSelected = true
             side = sender.currentTitle!
             break
-        case"Right":
+        case K.rightButtonTitle:
             rightButton.isSelected = true
             side = sender.currentTitle!
             break
@@ -48,7 +48,7 @@ class CipherViewController: UIViewController {
     
     @IBAction func runCipherPressed(_ sender: UIButton) {
         cipherBrain = CipherBrain(side: side, numberOfShifts: Int(shiftNumberLabel.text ?? "1"), inputText: inputTextField.text)
-        performSegue(withIdentifier: "goToResult", sender: self)
+        performSegue(withIdentifier: K.segueName, sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
